@@ -1,6 +1,6 @@
 FROM public.ecr.aws/amazoncorretto/amazoncorretto:17-al2023
 
-ENV VERSION 1.19.1
+ENV VERSION 1.20.1
 
 RUN yum -y update
 RUN yum -y install wget
