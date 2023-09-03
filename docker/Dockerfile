@@ -10,7 +10,7 @@ WORKDIR /root/minecraft
 RUN wget https://download.getbukkit.org/spigot/spigot-${VERSION}.jar
 
 RUN mkdir plugins
-RUN wget -O ./plugins/dynmap.jar https://dev.bukkit.org/projects/dynmap/files/3934649/download
+RUN wget -O ./plugins/dynmap.jar https://dev.bukkit.org/projects/dynmap/files/4632182/download
 
 ADD ./docker/setup.sh /root/minecraft/setup.sh
 RUN chmod 700 /root/minecraft/setup.sh
