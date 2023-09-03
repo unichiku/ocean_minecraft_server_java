@@ -13,9 +13,10 @@
 ### edit your eula.txt ###
 
 % docker start -i minecraft_ctr
+% open "http://localhost:8123/"
 ```
 
-### configure
+### dynmap
 
 ```
 > worldborder set 1024
@@ -25,10 +26,5 @@
 > dynmap purgemap world cave
 > dmap mapdelete world:cave
 > dynmap pause none
-```
-
-### dynmap
-
-```
-% open "http://localhost:8123/"
+> dynmap radiusrender world 0 0 100 flat
 ```
