@@ -20,7 +20,15 @@
 ```
 > worldborder set 1024
 > dynmap pause all
-> dynmap purgemap world_u cave
+> dmap worldlist
+> dmap maplist world
+> dynmap purgemap world cave
 > dmap mapdelete world:cave
 > dynmap pause none
+```
+
+### dynmap
+
+```
+% open "http://localhost:8123/"
 ```
