@@ -10,7 +10,7 @@
 % docker build -t minecraft_img -f ./docker/Dockerfile .
 % docker run -p 8123:8123 -p 25565:25565 -v ./docker/mnt:/mnt --name minecraft_ctr -itd minecraft_img
 
-### edit your eula.txt ###
+### edit your eula.txt & server.properties ###
 
 % docker start -i minecraft_ctr
 % open "http://localhost:8123/"
