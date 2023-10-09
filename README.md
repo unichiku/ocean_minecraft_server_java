@@ -19,7 +19,6 @@
 ### dynmap
 
 ```
-> worldborder set 1024
 > dynmap pause all
 > dmap worldlist
 > dmap maplist world
@@ -27,4 +26,12 @@
 > dmap mapdelete world:cave
 > dynmap pause none
 > dynmap radiusrender world 0 0 100 flat
+```
+
+### minecraft
+
+```
+> worldborder set 1024
+> set spawn 0 72 0
+> gamerule spawnRadius 0
 ```
